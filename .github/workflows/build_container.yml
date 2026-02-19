@@ -1,4 +1,4 @@
-name: Build and Push R Container
+name: Build and Push JupyterLab Container
 
 on:
   push:
