@@ -1,0 +1,13 @@
+fickling==0.1.7
+jupyterlab==4.5.3
+jupyterlab-quarto
+modelscan==0.8.7
+notebook==7.5.3
+pandas==3.0.0
+psycopg2
+SQLAlchemy
+picklescan==1.0.1
+scikit-learn==1.8.0
+torch==2.10.0
+transformers
+wget

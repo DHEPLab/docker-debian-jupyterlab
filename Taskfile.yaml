@@ -1,0 +1,19 @@
+version: '3'
+
+tasks:
+  default:
+    cmds:
+      - task --list-all
+    silent: true
+  build:
+    cmds:
+      - docker build --tag rstudio-server --platform linux/amd64 -f build/Dockerfile .
+    silent: true
+  up:
+    cmds:
+      - docker compose -f ./deployment/docker-compose.yml up -d
+    silent: true
+  down:
+    cmds:
+      - docker compose -f ./deployment/docker-compose.yml down
+    silent: true
